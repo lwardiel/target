@@ -4,10 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Target Exclusive Offer | MyPerks</title>
-  <meta name="description" content="Claim Your $500 Target
-Discount Today!">
-  <meta name="theme-color" content="#ffffff">
+  <title>Walmart Savings Offer | MyPerks</title>
+  <meta name="description" content="Claim Your $750 walmart Discount Today! Your $750 reward may be waiting—tap below to claim it!">
+  <meta name="theme-color" content="#0071ce">
 
   <style>
     * {
@@ -17,8 +16,9 @@ Discount Today!">
     }
 
     :root {
-      --Target-black: #cc0000;
-      --Target-dark: #990000;
+      --walmart-blue: #0071ce;
+      --walmart-dark: #004c91;
+      --walmart-yellow: #ffc220;
       --text-dark: #202124;
       --text-muted: #777b83;
       --border: #eeeeef;
@@ -73,19 +73,20 @@ Discount Today!">
       left: 0;
       right: 0;
       height: 4px;
-      background: var(--Target-black);
+      background: linear-gradient(90deg, var(--walmart-blue), var(--walmart-yellow));
     }
 
-    /* Target-inspired wordmark */
-   .Target-logo {
-  display: block;
-  width: 90px;
-  height: 90px;
-  object-fit: contain;
-  margin: 0 auto 23px;
-}
+    /* Independent offer-page wordmark */
+    .walmart-mark {
+      display: block;
+      width: 165px;
+      height: auto;
+      object-fit: contain;
+      margin: 0 auto 22px;
+    }
+
     .eyebrow {
-      color: var(--Target-black);
+      color: var(--walmart-blue);
       font-size: 10px;
       font-weight: 850;
       letter-spacing: 2.1px;
@@ -94,15 +95,15 @@ Discount Today!">
 
     h1 {
       color: var(--text-dark);
-      font-size: 36px;
+      font-size: 34px;
       font-weight: 850;
-      line-height: 1.13;
-      letter-spacing: -1.6px;
+      line-height: 1.15;
+      letter-spacing: -1.4px;
       margin-bottom: 13px;
     }
 
     h1 span {
-      color: var(--Target-black);
+      color: var(--walmart-blue);
     }
 
     .desktop-break {
@@ -114,7 +115,7 @@ Discount Today!">
       font-size: 14px;
       line-height: 1.7;
       margin: 0 auto 26px;
-      max-width: 330px;
+      max-width: 340px;
     }
 
     /* Reward card */
@@ -143,8 +144,8 @@ Discount Today!">
       display: flex;
       align-items: center;
       justify-content: center;
-      color: var(--Target-black);
-      background: #fff0f0;
+      color: var(--walmart-blue);
+      background: #eaf4ff;
       border-radius: 13px;
     }
 
@@ -167,7 +168,7 @@ Discount Today!">
     }
 
     .reward-copy b {
-      color: var(--Target-black);
+      color: var(--walmart-blue);
       font-weight: 800;
     }
 
@@ -185,7 +186,7 @@ Discount Today!">
       align-items: center;
       justify-content: center;
       gap: 11px;
-      background: linear-gradient(135deg, #b30000, #cc0000);
+      background: linear-gradient(135deg, #0071ce, #004c91);
       color: #ffffff;
       border: 0;
       border-radius: 13px;
@@ -193,7 +194,7 @@ Discount Today!">
       font-size: 14px;
       font-weight: 800;
       letter-spacing: .1px;
-      box-shadow: 0 6px 15px rgba(204, 0, 0, 0.17);
+      box-shadow: 0 6px 15px rgba(0, 113, 206, 0.17);
       transition:
         transform .2s ease,
         box-shadow .2s ease,
@@ -201,9 +202,9 @@ Discount Today!">
     }
 
     .continue-button:hover {
-      background: linear-gradient(135deg, #990000, #a60000);
+      background: linear-gradient(135deg, #004c91, #003b70);
       transform: translateY(-2px);
-      box-shadow: 0 9px 21px rgba(204, 0, 0, 0.22);
+      box-shadow: 0 9px 21px rgba(0, 76, 145, 0.22);
     }
 
     .continue-button:active {
@@ -212,7 +213,7 @@ Discount Today!">
     }
 
     .continue-button:focus-visible {
-      outline: 3px solid rgba(204, 0, 0, .3);
+      outline: 3px solid rgba(0, 113, 206, .3);
       outline-offset: 4px;
     }
 
@@ -296,9 +297,9 @@ Discount Today!">
       display: flex;
       align-items: center;
       justify-content: center;
-      background: #fff0f0;
-      color: var(--Target-black);
-      border: 1px solid #f0cccc;
+      background: #eaf4ff;
+      color: var(--walmart-blue);
+      border: 1px solid #c9e2fb;
       border-radius: 50%;
       font-size: 12px;
       font-weight: 850;
@@ -326,8 +327,8 @@ Discount Today!">
       }
 
       h1 {
-        font-size: 33px;
-        letter-spacing: -1.35px;
+        font-size: 30px;
+        letter-spacing: -1.2px;
       }
     }
 
@@ -338,7 +339,7 @@ Discount Today!">
       }
 
       h1 {
-        font-size: 29px;
+        font-size: 27px;
       }
 
       .desktop-break {
@@ -367,20 +368,21 @@ Discount Today!">
   <main class="offer-page">
     <section class="offer-card" aria-labelledby="offer-title">
 
-     <img
-  class="Target-logo"
-  src="https://corporate.target.com/getmedia/890f3192-ce35-496a-a3cf-15fc0a8105d0/Target_Bullseye-Logo_Red.jpg?width=620"
-  alt="Target logo"
->
-      <p class="eyebrow">TARGET DIGITL REWARD</p>
+      <img
+        class="walmart-mark"
+        src="https://logos-marques.com/wp-content/uploads/2023/01/Walmart-Logo.png"
+        alt="Walmart logo"
+      >
+
+      <p class="eyebrow"><strong>INDEPENDENT PROMOTIONAL OFFER</strong></p>
 
       <h1 id="offer-title">
-        Claim Your <span>$500</span>
-        TARGET<br class="desktop-break">Discount Today!
+        Claim Your <span>$750 walmart Discount</span><br class="desktop-break">
+        Today!
       </h1>
 
       <p class="subtitle">
-        Your $500 reward is waiting—tap below to claim it!
+        Your $750 reward may be waiting—tap below to claim it!
       </p>
 
       <div class="reward-card">
@@ -399,8 +401,8 @@ Discount Today!">
         </div>
 
         <div class="reward-copy">
-          <strong>Target Digital Reward</strong>
-          <span>Reward Value <b>$500</b></span>
+          <strong>Walmart-related Promotional Offer</strong>
+          <span>Advertised offer amount <b>$750</b></span>
         </div>
 
         <svg xmlns="http://www.w3.org/2000/svg"
@@ -414,7 +416,7 @@ Discount Today!">
       </div>
 
       <a class="continue-button"
-        href="https://linkthem.net/?offer_id=4389&aff_id=179788">
+        href="your link">
 
         Continue to Next Step
 
@@ -462,19 +464,20 @@ Discount Today!">
 
           <li>
             <span class="step-number">3</span>
-            <span>Complete 5+ Deals to Unlock more rewards</span>
+            <span>Review and complete the listed qualifying steps, if eligible</span>
           </li>
 
           <li>
             <span class="step-number">4</span>
-            <span>Check your eligibility and reward status</span>
+            <span>Enjoy your $750 walmart gift card!</span>
           </li>
         </ol>
 
       </div>
 
       <p class="fine-print">
-        Offer available for a limited time. Terms and conditions apply.
+        This is an independent promotional page and is not affiliated with, endorsed by, or sponsored by Walmart. Walmart trademarks belong to their respective owner. The $750 amount is an advertised promotional value, not a guaranteed reward. Availability, eligibility, qualifying actions, and terms are determined by the offer provider. Review all terms before participating.
+      </p>
 
     </section>
   </main>
